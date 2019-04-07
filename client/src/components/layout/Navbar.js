@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SignedInLink from "./SignedInLink";
+import SignedOutLink from "./SignedOutLink";
 
 const Navbar = () => {
   return (
@@ -10,6 +11,7 @@ const Navbar = () => {
           MyApp
         </Link>
         <SignedInLink />
+        <SignedOutLink />
       </div>
     </nav>
   );

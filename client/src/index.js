@@ -3,8 +3,11 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
+import { createStore } from "redux";
 
 // ReactDOM.render(<App />, document.getElementById("root"));
+
+const store = createStore();
 
 const rootEl = document.getElementById("root");
 

@@ -6,10 +6,10 @@ const SignedOutLinks = () => {
     <div>
       <ul className="right">
         <li>
-          <NavLink to="/">Signup</NavLink>
+          <NavLink to="/sign-up">Signup</NavLink>
         </li>
         <li>
-          <NavLink to="/">Login</NavLink>
+          <NavLink to="/sign-in">Login</NavLink>
         </li>
       </ul>
     </div>
